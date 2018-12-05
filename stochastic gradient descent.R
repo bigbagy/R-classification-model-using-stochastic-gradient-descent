@@ -1,9 +1,7 @@
-#GT ID: ZWANG906   #NAME: ZHIBO WANG    #CSE6242 HW4
 #install.packages("dplyr")
 #memory.limit(51200)
 library("dplyr")
 #################################################################################
-#First need to run the below preprocessing code from HW3
 # Read mnist_train.csv and mnist_test.csv separately.
 train <- read.csv('mnist/mnist_train.csv', header=FALSE)
 test <- read.csv('mnist/mnist_test.csv', header=FALSE)
